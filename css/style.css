@@ -11,6 +11,12 @@ h1{
 h2{
     font-size: 24px;
 }
+.wrapper{
+    background-color: #FCFCFC;
+    max-inline-size: 1280px;
+    margin-inline:auto;
+}
+
 .grey-bg{
     background-color: #EBEBEB;
 }
