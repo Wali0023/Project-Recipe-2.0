@@ -1,22 +1,25 @@
 body{
     font-family: "Open Sans";
-    font-size: 16px;
     background-color: #A100004D;
 }
 h1{
-    font-size: 28px;
+    font-size: 1.75rem;
     color:#A10000;
     font-weight: bold;
 }
 h2{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .wrapper{
     background-color: #FCFCFC;
     max-inline-size: 1280px;
     margin-inline:auto;
 }
-
 .grey-bg{
     background-color: #EBEBEB;
+}
+.two-column-layout{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
 }
