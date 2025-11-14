@@ -1,3 +1,6 @@
+*{
+    box-sizing:border-box;
+}
 body{
     font-family: "Open Sans";
     background-color: #A100004D;
@@ -15,6 +18,7 @@ main{
     padding: 48px;
     padding-bottom: 64px;
     background-color: #FCFCFC;
+  
 }
 .wrapper{  
     max-inline-size: 1280px;
