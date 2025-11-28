@@ -38,6 +38,14 @@ img{
     block-size: 500px;
     min-inline-size: 100%;
     border:#fcfcfc 1px solid;
+
+}
+figure{
+    margin:0px;
+}
+figcaption{
+    padding-left:20px;
+    background-color: white;
 }
 .grey-bg{
     background-color: #EBEBEB;
