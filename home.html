@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <title>Startsida</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
+    <div class="wrapper">
+
+        <a class="accesiility-links" href="#target1">Jump to Logga in</a>   
+        <a  class="accesiility-links" href="#target2">Jump to Recipes</a>
+        
+        <header class="wrapper">
+            <span class="page-logo">Recepta</span>
             <nav>
                 <ul>
                     <li><a href="">Alla Recept</a></li>
@@ -15,56 +23,93 @@
                     <li><a href="">Kontakt</a></li>
                 </ul>
             </nav>
-            <button>Logga in</button>
-    </header>
-    <main>
-        <div>
-            <img src="" alt=""/>
-            <h1>Pannkakor,</h1>
-            <h1>pannkakor,</h1>
-            <h1>pannkakor</h1>
-            <h2>i alla dessformer variationer</h2>
-        </div>
-        <section>
-            <h2>Hitta ditt nya favourit recept!</h2>
-            <article>
-                <img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-            </article>
-            <article>
-                <img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-            </article>
-            <article>
-                <img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-            </article>
-            <article>
-                <img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-            </article>
-            <article>
-                <img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-            </article>
-            <article>
-                <img src="" alt="">
-                    <h3>
-                        <p></p>
-                    </h3>
-            </article>
-        </section>
-    </main>
-    
-</body>
-</html>
+            <button id="target1">Logga in</button>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="" alt=""/>
+                <div class="text-container">
+                    <h1>Pannkakor,</h1>
+                    <h1>pannkakor,</h1>
+                    <h1>pannkakor</h1>
+                    <h2>- i alla dessformer variationer</h2>
+                </div>
+            </div>
+            <section class="Recipe-container" id="target2">
+                <h2 class="subtitle">Hitta ditt nya favourit recept!</h2>
+                
+                <div class="grid">
+                    <a href="index.html" class="card_link">
+                        <article class="card">
+                            <div class="image-container">
+                                <img class="card__image"src="images/Card/card-1.jpg" alt="">
+                            </div>
+                            <h2>Klassiska pannkakor</h2>
+                            <p>Gör traditionella med detta enkla och goda pankaksrecept.</p>
+                        </article>
+                    </a>
+                    <a href="index.html" class="card_link">
+                        <article class="card">
+                            <div class="image-container">
+                                <img class="card__image"src="images/Card/card-12.webp" alt="">
+                            </div>
+                            <h2>Amerikanska pannkakor</h2>
+                            <p>Amerikanska pannkakor, som är lite mindre och tjockare, med bär och lönnsirap</p>
+                        </article>
+                    </a>
+                    <a href="index.html" class="card_link">
+                        <article class="card">
+                            <div class="image-container">
+                                <img class="card__image"src="images/Card/card-2.jpg" alt="">
+                            </div>
+                            <h2>Pannkakstårta</h2>
+                            <p>Gör en hel tårta av pannkakor! lyxfrukost eller tårtbuffe, kan varieras i det oändliga med olika fyllningar och dekorationer.</p>
+                        </article>
+                    </a>
+                    <a href="index.html" class="card_link">
+                        <article class="card">
+                            <div class="image-container">
+                                <img class="card__image"src="images/Card/card-13.jpg" alt="">
+                        </div>
+                        <h2>Plattar</h2>
+                        <p>Plattar ar en klasstsk och atskad
+                            ratt som passar perfekt till
+                            helgfrukost. brunch eller som ett
+                            tyxigt mellanmål.</p>
+                        </article>
+                    </a>
+                    <a href="index.html" class="card_link">
+                        <article class="card">
+                            <div class="image-container">
+                                <img class="card__image"src="images/Card/card-4.jpg" alt="">
+                            </div>
+                            <h2>Crepes</h2>
+                            <p>Crég»s ar franska pannkakor
+                                fyllda med alit från kottfars och
+                                svamp till notter. choklad och
+                                banan. Enkelt till middag
+                                efterratt eller sorn mats.ack.</p>
+                            </article>
+                        </a>
+                        <a href="index.html" class="card_link">
+                            <article class="card">
+                                <div class="image-container">
+                                    <img class="card__image"src="images/Card/card-5.jpg" alt="">
+                                </div>
+                                <h2>Ugnspannkaka</h2>
+                                <p>Ugnspannkaka ar en alskad
+                                    klasgker som passar perfekt nar
+                                    du vill laga något gott. Servera
+                                    den med sylt, bar eller varfor inte
+                                    lite knaperstekt bacon for en
+                                    extra smakupplevelse.</p>
+                                </article>
+                            </a>
+                            
+                        </section>
+                    </div>
+                </main>
+                
+            </div>
+            </body>
+            </html>
