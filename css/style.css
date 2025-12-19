@@ -117,10 +117,15 @@ main{
         line-height: 20px;
         margin-bottom: 0px;
     }
+    li{
+        color:black;
+    }
     
 }
+
 .card_link{
     text-decoration: none;
+    color: black;
 }
 .card_link:visited{
     color: black;
@@ -162,7 +167,8 @@ header{
         display: flex;
         justify-content: space-evenly;
         list-style: none;
- li {
+    
+    li {
             color: black;
             a{
                 font-family:"Noto Sans";
@@ -193,3 +199,26 @@ header{
                     visibility: visible;
 
                 } 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  max-width: 300px;
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+}
+.something{
+    display: flex;
+    flex-direction: column;
+}
+.btn-submit{
+    margin: 1rem auto;
+    inline-size: 50px;
+}

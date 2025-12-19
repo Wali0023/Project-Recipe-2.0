@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+        <header class="wrapper">
+            <span class="page-logo">Recepta</span>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Alla Recept</a></li>
+                    <li><a href="">Om oss</a></li>
+                    <li><a href="Kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button id="target1">Logga in</button>
+        </header>
+        <main>
+            <div class="hero">
+                <img src="" alt=""/>
+                <div class="text-container">
+                    <h1>Pannkakor,</h1>
+                    <h1>pannkakor,</h1>
+                    <h1>pannkakor</h1>
+                    <h2>- i alla dessformer variationer</h2>
+                </div>
+            </div>
+            <div >
+                <h2 class = "contact-heading">Kontakta oss</h2>
+                <form  action="#" method="POST" class="contact-form">
+                         <div class="something">
+                             <label for="user-name">Ditt namn</label>
+                             <input
+                             type="text"
+                             name="username"
+                             id="user-name"
+                             required
+                             autocomplete="name"
+                             placeholder="username"
+                             />
+                            </div>
+                            <div class="something">
+                                <label for="user-email">E-post</label>
+                                <input
+                                type="email"
+                                name="email"
+                                id="user-email"
+                                required
+                                placeholder="address@mail.com"
+                                autocomplete="email"
+                                />
+                            </div>
+                            <div class="something">
+                                
+                                <label for="dept">Avedlning</label>
+                                <select name="department" id="dept">
+                                    <option value="" disabled selected>Välj Avedlning</option>
+                                    <option value="support">Kundtjänst</option>
+                                    <option value="sales">Sälj</option>
+                                </select>
+                            </div>
+                            <div class="something">
+                                
+                                <label>Meddelande</label>
+                                <textarea name="message" id="msg" rows="5"></textarea>
+                            </div>
+                            <button class="btn-submit" type="submit" class="">Skicka</button>
+                        </fieldset>
+                </form>
+            </div>
+        </div>
+  </body>
+</html>
