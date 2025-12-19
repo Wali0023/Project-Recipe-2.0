@@ -192,13 +192,13 @@ header{
     text-align: center;
     font-family:"Noto Sans";
 }
-                .accesiility-links{
-                    visibility: hidden ;          
-                }
-                .accesiility-links:focus{
-                    visibility: visible;
+.accesiility-links{
+    visibility: hidden ;          
+}
+.accesiility-links:focus{
+    visibility: visible;
 
-                } 
+} 
 .center{
     display: flex;
     justify-content: center;
@@ -209,7 +209,7 @@ header{
   flex-direction: column;
   margin: 3rem auto;
   max-width: 300px;
-  border: solid black dotted;
+
 }
 .contact-heading{
     display: flex;
@@ -218,6 +218,7 @@ header{
 .form-layout{
     display: flex;
     flex-direction: column;
+
 }
 .btn-submit{
     margin: 1rem auto;
