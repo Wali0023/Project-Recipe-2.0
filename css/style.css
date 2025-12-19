@@ -209,12 +209,13 @@ header{
   flex-direction: column;
   margin: 3rem auto;
   max-width: 300px;
+  border: solid black dotted;
 }
 .contact-heading{
     display: flex;
     justify-content: center;
 }
-.something{
+.form-layout{
     display: flex;
     flex-direction: column;
 }
